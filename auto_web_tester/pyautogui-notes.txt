@@ -1,0 +1,30 @@
+# enter text
+pyautogui.typewrite('Hello world!')
+
+# press keys
+pyautogui.typewrite(['a', 'b', 'left', 'left', 'X', 'Y'])
+pyautogui.keyDown()
+pyautogui.keyUp()
+pyautogui.typewrite(['down', '\t'])	
+
+# hot keys
+pyautogui.hotkey('ctrl', 'c')
+
+# screenshot
+im1 = pyautogui.screenshot()
+
+# locate on screen
+coords = pyautogui.locateCenterOnScreen('Show Explanation.png')
+pyautogui.click(coords)
+
+# use print statements to update the user
+print("Opening form...")
+print("Clicked next...")
+print("Entering details...")
+print("Scanning screen for submit button...")
+print("Button not found!")
+print("Clicked submit")
+print("Form complete!")
+
+# sleep to allow for loading times
+time.sleep(2)
