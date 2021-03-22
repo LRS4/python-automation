@@ -1,0 +1,4 @@
+CustomerId,Name of Recipient,Investment Growth,Message
+1,John,1000,Your investments have grown by £1000
+2,Mary,2000,Your investments have grown by £2000
+3,Mark,-1000,Your investments have fallen by £1000
