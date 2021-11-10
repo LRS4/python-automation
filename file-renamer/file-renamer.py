@@ -1,7 +1,7 @@
 import os
 
 def rename_files_in_directory():
-    path = r"C:/Users/lspencer1/OneDrive - Department for Education\Documents/Team/Test"
+    path = r"C:/Users/test/Documents"
     replacements = ["_dualforecast", "_narrative", "_pf1", "_summary", "_txn"]
     search_terms = ["CLAIM", "NARRATIVE", "PF1", "SUMMARY", "Txn"]
 
